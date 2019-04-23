@@ -130,7 +130,7 @@ header a:hover{
 
 /* Boxes */
 #boxes{
-  background:url('../img/water.jpeg') ;
+  background:url('../img/laptop1.jpeg') ;
   text-align:center;
   color:#ffffff;
   min-height: 1000px;
@@ -146,6 +146,7 @@ header a:hover{
   text-align: center;
   width: 50%;
 }
+
 
 .box {
   -webkit-transition: background-color 2s ease-out;
@@ -188,7 +189,11 @@ footer{
   text-align: center;
 }
 
-#align-reponsive {
+.fa-align-justify {
+  display: none;
+}
+
+#low-res-div a {
   display: none;
 }
 
@@ -222,8 +227,30 @@ footer{
   }
 
   #low-res-div {
+    
     min-height: 200px;
+    text-align: center;
     background-color: #171515;
+    width: 100%;
+  }
+
+  #low-res-div a {
+    display: block;
+  }
+
+  #low-res-div ul {
+    width: 50%;
+    margin:10px auto;
+  }
+
+  #low-res-div ul li {
+    display: inline;
+  }
+
+  .current {
+    width: 100%;
+    margin: 0;
+    padding: 25px 0;
   }
 
   #align-reponsive:hover {
