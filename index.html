@@ -1,84 +1,184 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Affordable and professional web design">
-	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Brad Traversy">
-    <title>Acme Web Deisgn | Welcome</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Nazwa</span> Firmy</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Strona główna</a></li>
-            <li><a href="about.html">O nas <i class="fa fa-user"></i> </a></li>
-            <li><a href="services.html">Kontakt</a></li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Affordable and professional web design">
+  <meta name="keywords" content="web design, affordable web design, professional web design">
+  <meta name="author" content="Brad Traversy">
+  <title> Studio House</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <script src="./js/index_style.js"></script>
+
+
+  <header>
+
+    <div class="container">
+      <div id="branding">
+        <h1 style="background-color:darkgoldenrod;"><span class="highlight">Studio</span> House</h1>
       </div>
-    </header>
 
 
-   
 
-    <section id="boxes">
-        <div>
-            <h1 >Specjalizujemy sie w roznych super rzeczach!</h1>
-          </div>
-      <div class="container">
+
+      <nav>
+        <i id="align-reponsive" class="fa fa-align-justify"></i>
+        <ul>
+          <li class="current" style="background-color:red;"><a href="index.html">Strona główna</a></li>
+          <li style="background-color:blue;"><a href="services.html">Kontakt</a></li>
+        </ul>
+
+      </nav>
+    </div>
+    <div id="low-res-div" style="display:none;">
+      <ul>
+        <li class="current"><a href="index.html">Strona główna</a></li>
+        <li><a href="services.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+
+
+  <section id="boxes">
+    <div>
+      <h1>Specjalizujemy sie w roznych super rzeczach!</h1>
+    </div>
+    <div class="container">
+      <a href="/stronyinternetowe">
         <div class="box">
-          <i class="fa fa-globe-europe" ></i>
+          <i class="fa fa-globe-europe"></i>
           <h3>Strony internetowe</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
+      </a>
+      <a href="/sklepy">
         <div class="box">
-            <i class="fa fa-shopping-bag" ></i>          
+          <i class="fa fa-shopping-bag"></i>
           <h3>Sklepy</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
+      </a>
+      <a href="/serwisy">
         <div class="box" style="clear:both;">
-            <i class="fa fa-pager" ></i>          
+          <i class="fa fa-pager"></i>
           <h3>Serwisy</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
+      </a>
+      <a href="/pozycjonowanie">
         <div class="box">
-            <i class="fa fa-hand-pointer" ></i>          
+          <i class="fa fa-hand-pointer"></i>
           <h3>Pozycjonowanie</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
         </div>
-      </div>
-    </section>
+      </a>
+    </div>
+  </section>
   </section>
 
-    <!-- Tu byl showcase zwykly z napisem -->
-    <!-- <section id="showcase">
+  <!-- Tu byl showcase zwykly z napisem -->
+  <!-- <section id="showcase">
       <div class="container">
         <h1>Affordable Professional Web Design</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
       </div>
     </section> -->
 
-    <section id="additional_text">
+  <section id="additional_text">
+    <div class="container">
+      <i class="fa fa-thumbs-up"></i>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna.Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna.</h1>
+    </div>
+  </section>
+
+
+  <footer>
+
+    <div class="widgets_wrapper" style="padding:10px 0 10px;">
       <div class="container">
-        <h1>Subscribe To Our additional_text</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
+        <div class="column one-fifth">
+          <aside id="custom_html-2" class="widget_text widget widget_custom_html">
+            <h4>Pozycjonowanie lokalne</h4>
+            <div class="textwidget custom-html-widget"><a href="#" data-wpel-link="internal">Pozycjonowanie
+                Toruń</a><br>
+              <a href="#" data-wpel-link="internal">Pozycjonowanie Bydgoszcz</a><br>
+              <a href="#" data-wpel-link="internal">Pozycjonowanie stron Gorzów</a><br>
+              <a href="#" data-wpel-link="internal">Pozycjonowanie Kielce</a><br>
+              <a href="#" data-wpel-link="internal">Pozycjonowanie Warszawa</a><br>
+              <a href="#" data-wpel-link="internal">Pozycjonowanie Katowice</a><br>
+            </div>
+          </aside>
+        </div>
+        <div class="column one-fifth">
+          <aside id="custom_html-3" class="widget_text widget widget_custom_html">
+            <h4>Reklama lokalna</h4>
+            <div class="textwidget custom-html-widget"><a href="" data-wpel-link="internal">Reklama
+                Lublin</a><br>
+              <a href="#" data-wpel-link="internal">Reklama Rybnik</a><br>
+              <a href="#/" data-wpel-link="internal">Reklama Wodzisław</a><br>
+              <a href="#" data-wpel-link="internal">Reklama Bielsko</a><br>
+              <a href="#" data-wpel-link="internal">Reklama Warszawa</a><br>
+              <a href="#" data-wpel-link="internal">Reklama Katowice</a><br>
+              <a href="#" data-wpel-link="internal">Reklama Toruń</a><br></div>
+          </aside>
+        </div>
+        <div class="column one-fifth">
+          <aside id="custom_html-4" class="widget_text widget widget_custom_html">
+            <h4>Strony internetowe</h4>
+            <div class="textwidget custom-html-widget"><a href="" data-wpel-link="internal">Strony internetowe
+                Częstochowa</a><br>
+              <a href="#" data-wpel-link="internal">Strony internetowe Bielsko</a><br>
+              <a href="#" data-wpel-link="internal">Strony internetowe Nowy Sącz</a><br>
+              <a href="#" data-wpel-link="internal">Strony internetowe Warszawa</a><br>
+              <a href="#" data-wpel-link="internal">Strony internetowe Katowice</a><br>
+              <a href="#" data-wpel-link="internal">Strony internetowe Toruń</a><br></div>
+          </aside>
+        </div>
+        <div class="column one-fifth">
+          <aside id="custom_html-5" class="widget_text widget widget_custom_html">
+            <h4>Agencja reklamowa</h4>
+            <div class="textwidget custom-html-widget"><a href="" data-wpel-link="internal">Agencja reklamowa
+                Kraków</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Gdańsk</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Bydgoszcz</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Warszawa</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Katowice</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Toruń</a><br></div>
+          </aside>
+        </div>
+        <div class="column one-fifth">
+          <aside id="custom_html-6" class="widget_text widget widget_custom_html">
+            <h4>Agencja interaktywna</h4>
+            <div class="textwidget custom-html-widget"><a href="" data-wpel-link="internal">Agencja interaktywna
+                Warszawa</a><br>
+              <a href="#" data-wpel-link="internal">Agencja interaktywna Wrocław</a><br>
+              <a href="#" data-wpel-link="internal">Agencja interaktywna Bydgoszcz</a><br>
+              <a href="#" data-wpel-link="internal">Agencja interaktywna Łódź</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Katowice</a><br>
+              <a href="#" data-wpel-link="internal">Agencja reklamowa Toruń</a><br></div>
+          </aside>
+        </div>
       </div>
-    </section>
+    </div>
 
+    <p>Firma, Copyright &copy; 2017</p>
+  </footer>
+</body>
 
-    <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2017</p>
-    </footer>
-  </body>
 </html>

@@ -42,7 +42,8 @@ header{
   min-height:70px;
   border-bottom:#e8491d 3px solid;
   display: inline-flex;
-    z-index: 10;
+  padding-top: 10px;
+  z-index: 10;
 }
 
 header a{
@@ -55,7 +56,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 header #branding{
@@ -63,12 +64,16 @@ header #branding{
 }
 
 header #branding h1{
-  margin:0;
+padding: 0 0 10px 0;
 }
 
 header nav{
   float:right;
   margin-top:10px;
+}
+
+#align-responsive {
+  display: none;
 }
 
 header .highlight, header .current a{
@@ -83,7 +88,6 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height:1200px;
   background:url('../img/stars.jpeg') no-repeat 0 -200px ;
   text-align:center;
   color:#ffffff;
@@ -110,29 +114,26 @@ header a:hover{
   color:#ffffff;
   min-height: 500px;
   background: #3d3d3d;
+  text-align: center;
 }
 
 #additional_text h1{
   float:left;
+  padding-top: 50px;
 }
 
-#additional_text form {
-  float:right;
-  margin-top:15px;
+#additional_text i{
+  margin-top: 70px;
+  font-size: 50px
 }
 
-#additional_text input[type="email"]{
-  padding:4px;
-  height:25px;
-  width:250px;
-}
 
 /* Boxes */
 #boxes{
-  min-height:1200px;
-  background:url('../img/foggy.jpg') ;
+  background:url('../img/water.jpeg') ;
   text-align:center;
   color:#ffffff;
+  min-height: 1000px;
 }
 #boxes i{
   height: 100px;
@@ -146,9 +147,15 @@ header a:hover{
   width: 50%;
 }
 
-#boxes .box:hover{
-  
-   
+.box {
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.box:hover {
+  background-color: orangered;
+  opacity: 20%;
 }
 
 #boxes .box img{
@@ -162,40 +169,113 @@ header a:hover{
   margin-bottom:10px;
 }
 
+#boxes .container a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#boxes .container {
+}
+.widgets_wrapper .container{
+  display: flex;
+  justify-content: space-between;
+}
 
 footer{
   padding:20px;
-  margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color: rgb(78, 77, 75);
   text-align: center;
+}
+
+#align-reponsive {
+  display: none;
 }
 
 /* Media q */
 @media(max-width: 768px){
-  header #branding,
-  header nav,
-  header nav li,
-  #additional_text h1,
-  #additional_text form,
-  #boxes .box,
  
+  #align-reponsive {
+    display: block;
+    font-size: 30px;
+  }
 
-  header{
-    padding-bottom:20px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  #low-res-div {
+    min-height: 200px;
+    background-color: #171515;
+  }
+
+  #align-reponsive:hover {
+    cursor: pointer;
+  }
+
+  header nav ul {
+    display: none;
+  }
+ 
+  #boxes {
+    padding-bottom: 100px;
+  }
+
+  #boxes .box{
+    clear: both;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #showcase {
+    height: 1500px;
+  }
+
+  #boxes h1 {
+    font-size: 35px;
   }
 
   #showcase h1{
     margin-top:40px;
   }
 
-  #additional_text button, .quote button{
-    display:block;
-    width:100%;
+  #additional_text{
+    padding:15px;
+    color:#ffffff;
+    min-height: 500px;
+    background: #3d3d3d;
+    text-align: center;
+  }
+  
+  #additional_text h1{
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  
+  #additional_text i{
+    margin-top: 70px;
+    font-size: 50px
+  }
+  
+  .widgets_wrapper .container{
+    display: block;
   }
 
-  #additional_text form input[type="email"], .quote input, .quote textarea{
-    width:100%;
-    margin-bottom:5px;
-  }
 }
