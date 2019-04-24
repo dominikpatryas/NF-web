@@ -7,11 +7,6 @@ $(function(){
       }
       
     }
-    $('#align-reponsive').click(yourfunction);
+    $('.fa-align-justify').click(yourfunction);
 });
 
-// $(window).click(function() {
-//     if (document.getElementById('low-res-div').style.display == "block") {
-//         document.getElementById('low-res-div').style.display = "none";
-//       } 
-//     });
