@@ -1,13 +1,21 @@
 /* Media q INDEX */ 
-
+@media(max-width: 1200px){
+.widgets_wrapper .textwidget {
+  font-size: 10px;
+}
+}
 
 @media(max-width: 768px){
- 
-  header {
-  }
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
   header .container {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     width: 100%;
   }
@@ -15,7 +23,7 @@
   #branding h1 {
     font-size: 30px;
     padding: 5px 0 0 0 !important;
-    margin: 0 !important;
+    margin: 0 ;
     
   }
 
