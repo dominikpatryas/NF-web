@@ -47,7 +47,7 @@ margin: 50px 0 0 0 ;
 
 #showcase .second-left {
     display: inline-block;
-    margin: 50px 0 0 0 ;background-color: blueviolet;
+    margin: 50px 0 0 0 ;
     width: 300px; vertical-align: middle;
 }
 
@@ -205,10 +205,21 @@ margin: 50px 0 0 0 ;
         #showcase .third .third-box {
             font-size: 15px;
         }
+        #showcase .third  {
+            padding-top: 100px;
+        }
      }
 
      @media(max-width: 305px){
         #showcase { min-height: 3500px;
+        }
+     }
+
+     @media(max-width: 333px){
+        #showcase .third  {
+            padding-top: 150px;
+        }
+        #showcase { min-height: 3600px;
         }
      }
     

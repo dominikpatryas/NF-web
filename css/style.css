@@ -123,7 +123,7 @@ ul{
 #boxes .container {
   padding: 0 0 50px 0;
 }
-.widgets_wrapper .container{
+.footer_wrapper .container{
   display: flex;
   justify-content: space-between;
 }
@@ -135,7 +135,7 @@ footer{
   text-align: center;
 }
 
-.textwidget a {
+.text a {
 color: #e8491d;
 text-decoration: none !important;
 font-size: 16px;
@@ -152,7 +152,7 @@ font-size: 16px;
 
 /* Media q INDEX */ 
 @media(max-width: 1200px){
-  .widgets_wrapper .textwidget {
+  .footer_wrapper .text {
     font-size: 10px;
   }
   }
@@ -292,20 +292,18 @@ font-size: 16px;
       padding-top: 50px;
     }
   
-    .widgets_wrapper .container {
-  
-    }
+   
     
     #additional_text i{
       margin-top: 70px;
       font-size: 50px
     }
     
-    .widgets_wrapper .container{
+    .footer_wrapper .container{
       display: block;
     }
   
-    .textwidget {
+    .text {
       margin: 0 0 25px 0;
     }
   
