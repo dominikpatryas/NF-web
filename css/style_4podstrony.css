@@ -152,11 +152,7 @@ margin: 50px 0 0 0 ;
         margin-bottom:10px;
       }
    
-    .fa-align-justify {
-        margin: 5px 15px 0 10px;
-        padding: 0;
-    }
-
+   
     
 
     #showcase  .second-right  {
@@ -194,6 +190,8 @@ margin: 50px 0 0 0 ;
         padding: 25px 0 0 0;
     }
 
+    
+
     @media(max-width: 630px){
        #showcase { min-height: 3300px;
        }
@@ -203,10 +201,13 @@ margin: 50px 0 0 0 ;
         #showcase { min-height: 3400px;
         }
         #showcase .third .third-box {
-            font-size: 15px;
+            font-size: 18px;
         }
         #showcase .third  {
             padding-top: 100px;
+        }
+        #showcase .container .first .first-left  p{
+            font-size: 25px;
         }
      }
 

@@ -62,13 +62,13 @@ ul{
 
 #additional_text h1{
   float:left;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
 #additional_text i{
   margin-top: 70px;
-  font-size: 50px
+  font-size: 80px
 }
 
 /* Boxes */
@@ -176,21 +176,13 @@ font-size: 16px;
       font-size: 30px;
       padding: 5px 0 0 0 !important;
       margin: 0 ;
-      
     }
   
     #branding {
       margin: 0 0 0 10px;
   }
     
-    .fa-align-justify {
-      text-align: right;
-      display: block;
-      margin: 5px 15px 0 10px;
-          padding: 0;
-      font-size: 30px;
-      /* padding: 15px 15px 0 0 ; */
-    }
+    
     ul {
       list-style-type: none;
       margin: 0;
