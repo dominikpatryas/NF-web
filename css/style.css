@@ -49,13 +49,18 @@ ul{
 
 
 #contact {
-  background:url('../img/tlo.png') ;
+  background:url('../img/laptop1.jpeg') ;
   height: 1000px;
+  background-position:center;
+}
+#contact .container {
+  /* background-color: green; */
 }
 
 #contact #header  {
-padding: 80px 0 0 0;
-background-color: red;
+padding: 120px 0 0 0;
+/* background-color: red; */
+width:50%;
 }
 
 #contact #header h3  {
@@ -73,25 +78,26 @@ background-color: red;
 }
 
 #contact  .content-text {
-  background-color: blue;
+  /* background-color: blue; */
+  width:40%;
     
   }
 #contact  .content-text p,i {
+  padding: 10px 0 0 0;
     color: white;
     font-size: 25px;
     margin: 0;
 }
 
  #information .information-text p {
-  text-decoration-line: underline;
   font-size: 40px;
   color: #e8491d;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
-#contact .container .contact-items .contact-photo img {
-  float: left;
-  width: 300px;
-  height: 300px;
-}
+
+
+
 /* additional_text */
 #additional_text{
   padding:15px;
