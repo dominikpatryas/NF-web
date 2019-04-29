@@ -33,3 +33,9 @@ $(document).ready(function () {
 
 });
 
+
+$(document).ready(function () {
+  $('#contact #header h3').css('display', 'none').fadeIn(1000);
+
+  $(' #contact .content-text p').animate({fontSize: '1.6em'}, "slow");
+});

@@ -30,14 +30,6 @@ ul{
   padding:0;
 }
 
-.button_1{
-  height:38px;
-  background:#e8491d;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
 
 .dark{
   padding:15px;
@@ -47,56 +39,8 @@ ul{
   margin-bottom:10px;
 }
 
-
-#contact {
-  background:url('../img/laptop1.jpeg') ;
-  height: 1000px;
-  background-position:center;
-}
-#contact .container {
-  /* background-color: green; */
-}
-
-#contact #header  {
-padding: 120px 0 0 0;
-/* background-color: red; */
-width:50%;
-}
-
-#contact #header h3  {
-  margin: 0;
-    color: white;
-    font-size: 50px;
-  
-}
-
-#contact #header h3 i {
-  margin: 0;
-    color: white;
-    font-size:50px;
-  
-}
-
-#contact  .content-text {
-  /* background-color: blue; */
-  width:40%;
-    
-  }
-#contact  .content-text p,i {
-  padding: 10px 0 0 0;
-    color: white;
-    font-size: 25px;
-    margin: 0;
-}
-
- #information .information-text p {
-  font-size: 40px;
-  color: #e8491d;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-
+ 
+ /****** CONTACT - FINISH ******/
 
 /* additional_text */
 #additional_text{
@@ -198,9 +142,19 @@ font-size: 16px;
 
 
 /* Media q INDEX */ 
+
+
 @media(max-width: 1200px){
   .footer_wrapper .text {
     font-size: 10px;
+  }
+
+  #contact  .contact-items p {
+    font-size: 15px;
+  }
+
+  #contact #header h3 {
+    font-size: 35px;
   }
   }
   
