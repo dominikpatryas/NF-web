@@ -8,6 +8,11 @@
   src: url('../fonts/lacuna.ttf');
 }
 
+@font-face {
+  font-family: 'shot';
+  src: url('../fonts/shot.ttf');
+}
+
 
 
 body{

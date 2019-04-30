@@ -2,13 +2,15 @@
 #contact {
   background: url("../img/tlo.png");
   height: 1000px;
-  background-position: center;
+  background-size: 100% 100%;
+  /* background-position: bottom; */
 }
 #contact .container {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
 }
+
 
 #contact #header {
   padding: 120px 0 0 0;
@@ -24,14 +26,15 @@
 #contact hr {
   border-width: 1px;
   border-style: solid;
-  color: white;
+  color: #e8491d;
 }
 
 #contact #header h3 {
   margin: 0;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
+  font-family: lacuna, Helvetica, sans-serif;
   /* background-color: green; */
 }
 
@@ -42,8 +45,7 @@
 }
 
 #contact .content-text p {
-  /* background-color: blue; */
-  font-size: 18px;
+  font-size: 20px !important;
   color: #ffffff;
 }
 #contact .content-text i {
@@ -53,9 +55,24 @@
 }
 
 #contact .contact-photo {
-  padding: 100px 0 0 0;
-  margin: 0;
+  margin-right: 10px;
 }
+
+#contact .contact-photo img {
+  width: 600px; height:450px;
+  margin: 160px 0 0 0;
+  border-radius: 20px;
+  border: 1px solid #e8491d;
+}
+
+#contact .contact-photo img:hover {
+  box-shadow: 0 0 10px #e8491d;
+  -moz-box-shadow: 0 0 10px #e8491d;
+-webkit-box-shadow:0 0 10px #e8491d;
+}
+
+
+
 
 .information-text p {
   font-size: 40px;
@@ -64,22 +81,57 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+@media (max-width: 1700px) {
+
+  #contact .contact-photo img {
+      margin: 150px 0 0 0;
+      /* width: 400px;
+      height: 350px; */
+    }
+
+  }
 @media (max-width: 1500px) {
   #contact .container {
     width: 95%;
   }
 }
 
-@media (max-width: 1310px) {
-  #contact .contact-photo {
+@media (max-width: 1300px) {
+  #contact .contact-photo img {
+    margin: 150px 0 0 0;
   }
+
+  #contact .content-text p {
+    font-size: 3px;
+    color: #ffffff;
+  }
+  #contact .content-text i {
+    color: white;
+    font-size: 17px;
+    margin: 0 10px 0 0;
+  }
+  
+  #contact #header h3 {
+    margin: 0;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: lacuna, Helvetica, sans-serif;
+    /* background-color: green; */
+  }
+
+  #content {
+    width: 80%;
+  }
+
+
 }
 
 @media (max-width: 1250px) {
-  #contact .contact-photo iframe {
-    padding: 50px 0 0 0;
-    width: 500px;
-    height: 350px;
+  #contact .contact-photo img {
+    margin: 150px 0 0 0;
+    /* width: 500px;
+    height: 350px; */
   }
 
   #contact #header h3 {
@@ -95,10 +147,10 @@
 
 @media (max-width: 1100px) {
 
-    #contact .contact-photo iframe {
-        padding: 75px 0 0 0;
-        width: 400px;
-        height: 250px;
+    #contact .contact-photo img {
+        margin: 200px 0 0 0;
+        width: 450px;
+        height: 300px;
       }
 
       #contact .content-text p {
@@ -111,9 +163,8 @@
 
 @media (max-width: 900px) {
 
-
     #contact #header h3 {
-        font-size: 35px;
+        font-size: 25px;
       }
 
     #contact .content-text p {
@@ -124,7 +175,7 @@
 
       #contact .content-text  {
         /* background-color: blue; */
-        width:80%;
+        width:90%;
         
       }
 
@@ -148,10 +199,11 @@
         align-items: center;
       }
 
-      #contact .contact-photo iframe {
-        padding: 100px 0 0 0;
-        width: 600px;
-        height: 450px;
+      #contact .contact-photo img {
+        padding: 0 0 0 0;
+        margin: 100px 0 0 0;
+        width: 400px;
+        height: 250px;
       }
 
       #contact .content-text p {
@@ -160,10 +212,15 @@
         color: #ffffff;
       }
 
-      #contact .content-text  {
+      #contact #content {
+        width: 100%;
+      }
+
+      
+      #contact .content-text p {
         /* background-color: blue; */
-        width:100%;
-        
+        font-size: 20px !important;
+        width: 100%;
       }
 
       #contact .container .contact-items {
@@ -173,12 +230,18 @@
         text-align: center;
       }
       
-
+      #contact .content-text {
+        width: 100%;
+      }
       
+      .information-text p {
+        font-size: 30px;
+      }
+
 }
 
 @media (max-width: 600px) {
-    #contact .contact-photo iframe {
+    #contact .contact-photo img {
         padding: 0;
         width: 400px;
         height: 250px;
@@ -186,7 +249,7 @@
 }
 
 @media (max-width: 400px) {
-    #contact .contact-photo iframe {
+    #contact .contact-photo img {
         padding: 0;
         width: 300px;
         height: 200px;
