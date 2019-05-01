@@ -62,7 +62,7 @@
   width: 600px; height:450px;
   margin: 160px 0 0 0;
   border-radius: 20px;
-  border: 1px solid #e8491d;
+  /* border: 1px solid #e8491d; */
 }
 
 #contact .contact-photo img:hover {

@@ -54,16 +54,14 @@ margin: 50px 0 0 0 ;
 #showcase .second-right {
     vertical-align: top;
     margin: 70px 0 ;
-    font-size: 30px;
+    font-size: 24px;
 }
 
-#showcase .second-right p {
-    font-size: 30px;
-}
+
 
 #showcase .third {
     height: 150px;
-    margin: 400px auto 0 auto;
+    margin: 300px auto 0 auto;
     padding: 0;display: table;
     max-width:80%;
     min-width:150px;
@@ -95,7 +93,7 @@ margin: 50px 0 0 0 ;
 
   .highlight {
       color: rgb(208, 99, 26);
-      font-size: 35px;
+      font-size: 40px;
   }
 
  .fourth .fourth-box p {
@@ -156,7 +154,7 @@ margin: 50px 0 0 0 ;
     
 
     #showcase  .second-right  {
-        font-size: 21px;
+        font-size: 18px;
     }
 
    

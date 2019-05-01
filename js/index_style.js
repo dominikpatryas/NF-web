@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $('#contact #header h3').css('display', 'none').fadeIn(1000);
+  $('#contact #header h3, #contact .contact-photo img').css('display', 'none').fadeIn(1000);
 
-  $(' #contact .content-text p').animate({fontSize: '1.6em'}, "slow");
+  // $(' #contact .contact-photo img').animate({width: '600px'}, "slow");
 });

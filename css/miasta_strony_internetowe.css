@@ -1,0 +1,51 @@
+
+
+#main {
+    background:url('../img/tlo.png') ;
+    height: 1500px;
+    color: white;
+  }
+  
+  #main .container {
+      width: 90%;
+      background-color: aqua;
+  }
+
+  .head-text {
+      padding: 100px 0 0 0;
+      text-align: center;
+      background-color: gray;
+
+  }
+
+  .head-text h1 {
+      font-size: 35px;
+}
+
+.head-text i {
+    font-size: 40px;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.first-content .first-box {
+    background-color: red;
+    width: 45%;
+    font-size: 25px;
+}
+
+.first-content .second-box {
+    background-color: blue;
+    width: 45%;
+    font-size: 25px;
+
+}
+
+.icon {
+    font-size: 85px;
+    text-align: center;
+}
+
