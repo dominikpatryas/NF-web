@@ -1,7 +1,7 @@
 /****** CONTACT ******/
 #contact {
   background: url("../img/tlo.png");
-  height: 1000px;
+  height: 900px;
   background-size: 100% 100%;
   /* background-position: bottom; */
 }
@@ -60,7 +60,7 @@
 
 #contact .contact-photo img {
   width: 600px; height:450px;
-  margin: 160px 0 0 0;
+  margin: 200px 0 0 0;
   border-radius: 20px;
   /* border: 1px solid #e8491d; */
 }
@@ -84,7 +84,7 @@
 @media (max-width: 1700px) {
 
   #contact .contact-photo img {
-      margin: 150px 0 0 0;
+      margin: 200px 0 0 0;
       /* width: 400px;
       height: 350px; */
     }
@@ -190,7 +190,7 @@
 @media (max-width: 768px) {
 
     #contact {
-        height: 1300px;
+        height: 1200px;
     }
 
     #contact .container {

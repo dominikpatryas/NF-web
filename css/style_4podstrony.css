@@ -61,7 +61,7 @@ margin: 50px 0 0 0 ;
 
 #showcase .third {
     height: 150px;
-    margin: 300px auto 0 auto;
+    margin: 200px auto 50px auto;
     padding: 0;display: table;
     max-width:80%;
     min-width:150px;
@@ -140,12 +140,12 @@ margin: 50px 0 0 0 ;
 */
   @media all and (max-width: 768px) {
     #showcase  {
-        min-height: 3000px;
+        min-height: 2000px;
     }
 
     #showcase h1{
         margin-top: 0;
-        padding: 100px 0 100px 0 ;
+        padding: 150px 0 50px 0 ;
         font-size:55px;
         margin-bottom:10px;
       }
@@ -191,12 +191,12 @@ margin: 50px 0 0 0 ;
     
 
     @media(max-width: 630px){
-       #showcase { min-height: 3300px;
+       #showcase { min-height: 2000px;
        }
     }
 
     @media(max-width: 413px){
-        #showcase { min-height: 3400px;
+        #showcase { min-height: 2100px;
         }
         #showcase .third .third-box {
             font-size: 18px;
@@ -210,7 +210,7 @@ margin: 50px 0 0 0 ;
      }
 
      @media(max-width: 305px){
-        #showcase { min-height: 3500px;
+        #showcase { min-height: 2100px;
         }
      }
 
@@ -218,8 +218,7 @@ margin: 50px 0 0 0 ;
         #showcase .third  {
             padding-top: 150px;
         }
-        #showcase { min-height: 3600px;
-        }
+        
      }
     
 }

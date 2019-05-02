@@ -27,7 +27,7 @@ $(document).ready(function () {
   // $('body').css('display', 'none').fadeIn(1000);
   $('.first').css('display', 'none').slideDown(1500);
   $('.opis p').css('display', 'none').fadeIn(1500);
-  $('.second').css('display', 'none').fadeIn(2500);
+  $('.second, .third').css('display', 'none').fadeIn(2500);
 
  
 

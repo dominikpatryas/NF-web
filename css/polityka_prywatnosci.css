@@ -1,0 +1,101 @@
+#main-text {
+    background:url('../img/tlo.png') ;
+    height: 1600px;
+    color: white;
+  }
+ 
+  #main-text .container {
+      width: 80%; 
+      /* background-color: aqua; */
+  }
+
+  #main-text p {height:100%;
+      padding: 100px 0 0 0px ;
+  }
+
+  @media(max-width: 1455px) {
+    #main-text {
+        height: 1700px;
+      }
+  }
+
+  @media(max-width: 1335px) {
+    #main-text {
+        height: 2000px;
+      }
+  }
+
+  @media(max-width: 935px) {
+    #main-text p {
+        font-size: 14px;
+      }
+  }
+
+  @media(max-width: 816px) {
+    #main-text p {
+        font-size: 13.5px;
+      }
+  }
+
+  @media(max-width: 768px) {
+    
+      #main-text .container {
+        width: 90%;
+        /* background-color: aqua; */
+    }
+  }
+
+  @media(max-width: 660px) {
+    #main-text p {
+        font-size: 13px;
+      }
+  }
+
+  @media(max-width: 567px) {
+    #main-text {
+        height: 2200px;
+      }
+  }
+
+
+  @media(max-width: 500px) {
+    #main-text p {
+        font-size: 12.5px;
+      }
+  }
+
+  @media(max-width: 460px) {
+    #main-text {
+        height: 2400px;
+      }
+  }
+
+  @media(max-width: 415px) {
+    #main-text {
+        height: 2500px;
+      }
+  }
+
+  @media(max-width: 400px) {
+    #main-text {
+        height: 2700px;
+      }
+  }
+
+  @media(max-width: 370px) {
+    #main-text p {
+        font-size: 12.5px;
+      }
+  }
+
+  @media(max-width: 345px) {
+    #main-text p {
+        font-size: 12px;
+      }
+  }
+
+  @media(max-width: 319px) {
+    #main-text p {
+        font-size: 11.5px;
+      }
+  }
