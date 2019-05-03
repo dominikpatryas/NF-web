@@ -138,9 +138,19 @@ margin: 50px 0 0 0 ;
 *************************************
 *************************************
 */
+@media (max-width: 1110px) {
+    #showcase .third {
+        margin: 350px auto 50px auto;
+    }
+}
+
   @media all and (max-width: 768px) {
     #showcase  {
-        min-height: 2000px;
+        min-height: 1800px;
+    }
+
+    .pozcase {
+        min-height: 1500px !important;
     }
 
     #showcase h1{
@@ -157,9 +167,19 @@ margin: 50px 0 0 0 ;
         font-size: 18px;
     }
 
-   
+    #showcase .third {
+        margin: 300px auto 50px auto;
+    }
 
     #showcase .third .third-box {
+        font-size: 20px;
+    }
+
+    #showcase .poz {
+        margin: 200px auto 50px auto;
+    }
+
+    #showcase .poz .poz-box {
         font-size: 20px;
     }
 
@@ -190,14 +210,14 @@ margin: 50px 0 0 0 ;
 
     
 
-    @media(max-width: 630px){
-       #showcase { min-height: 2000px;
-       }
-    }
 
     @media(max-width: 413px){
-        #showcase { min-height: 2100px;
+        #showcase { min-height: 1900px;
         }
+        .pozcase {
+            min-height: 1650px !important;
+        }
+        
         #showcase .third .third-box {
             font-size: 18px;
         }
@@ -215,6 +235,9 @@ margin: 50px 0 0 0 ;
      }
 
      @media(max-width: 333px){
+        #showcase { min-height: 2100px;
+        }
+       
         #showcase .third  {
             padding-top: 150px;
         }

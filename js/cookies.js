@@ -9,7 +9,7 @@
         }
       },
       "content": {
-        "href": "www.studiohouse.pl/polityka_prywatnosci",
+        "href": "../polityka_prywatnosci.html",
         "message": "Ta witryna korzysta z plików cookie w celach technicznych, analitycznych i marketingowych. Kontynuuj przeglądanie strony, jeśli się zgadzasz.",
     "dismiss": "Zgadzam się",
     "link": "Dowiedz się więcej"
