@@ -7,3 +7,17 @@ $(document).ready(function () {
    
   
   });
+
+  $(document).ready(function(){
+    $(".fa-align-justify").click(function(){
+  
+      if($('#low-res-div').css('display') == 'none')
+      {
+        $("#low-res-div").fadeIn("slow");
+      }
+  else {
+    $("#low-res-div").fadeOut();
+  }
+    });
+  });
+  

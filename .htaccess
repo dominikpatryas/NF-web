@@ -1,5 +1,7 @@
 RewriteEngine on
 
+RewriteEngine On
+RewriteRule ^index\.html$ / [R=301,L]
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
